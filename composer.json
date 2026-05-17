@@ -1,0 +1,20 @@
+{
+  "name": "bbwdadfg/bestvid-site-kit",
+  "description": "Small URL helpers for BestVid links.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://bestvid.net",
+  "authors": [
+    {
+      "name": "BestVid"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BestVid\\SiteKit\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  }
+}
