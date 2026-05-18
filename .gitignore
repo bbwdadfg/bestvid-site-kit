@@ -2,6 +2,15 @@
 Cargo.lock
 *.gem
 *.nupkg
+*.jar
+*.pom
+*.tar
 /.nuget-build/
 /dist/
 __pycache__/
+/_build/
+/deps/
+mix.lock
+/.elixir_ls/
+/.dart_tool/
+pubspec.lock

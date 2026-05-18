@@ -1,0 +1,25 @@
+#!/bin/sh
+set -eu
+
+site_url="https://bestvid.net"
+
+case "${1:-url}" in
+  url)
+    path="${2:-}"
+    path="$(printf '%s' "$path" | sed 's#^/*##')"
+    if [ -z "$path" ]; then
+      printf '%s\n' "$site_url"
+    else
+      printf '%s/%s\n' "$site_url" "$path"
+    fi
+    ;;
+  search)
+    query="${2:-}"
+    query="$(printf '%s' "$query" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//;s/ /+/g')"
+    printf '%s/search?q=%s\n' "$site_url" "$query"
+    ;;
+  *)
+    printf 'usage: bestvid-site-kit [url PATH|search QUERY]\n' >&2
+    exit 64
+    ;;
+esac

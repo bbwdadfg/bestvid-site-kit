@@ -40,6 +40,34 @@ Python:
 pip install bestvid-site-kit
 ```
 
+Elixir:
+
+```elixir
+{:bestvid_site_kit, "~> 0.1.5"}
+```
+
+Dart:
+
+```sh
+dart pub add bestvid_site_kit
+```
+
+Java / Maven:
+
+```xml
+<dependency>
+  <groupId>net.clojars.tianwei111245</groupId>
+  <artifactId>bestvid-site-kit</artifactId>
+  <version>0.1.5</version>
+</dependency>
+```
+
+Docker:
+
+```sh
+docker run --rm tianwei111245/bestvid-site-kit url /tools/ai-video
+```
+
 ## Usage
 
 Go:
@@ -91,4 +119,29 @@ import bestvid_site_kit as bestvid
 
 print(bestvid.url("/tools/ai-video"))
 print(bestvid.search_url("ai video generator"))
+```
+
+Elixir:
+
+```elixir
+BestvidSiteKit.url("/tools/ai-video")
+BestvidSiteKit.search_url("ai video generator")
+```
+
+Dart:
+
+```dart
+import 'package:bestvid_site_kit/bestvid_site_kit.dart';
+
+print(url('/tools/ai-video'));
+print(searchUrl('ai video generator'));
+```
+
+Java:
+
+```java
+import net.bestvid.sitekit.BestVidLinks;
+
+System.out.println(BestVidLinks.url("/tools/ai-video"));
+System.out.println(BestVidLinks.searchUrl("ai video generator"));
 ```

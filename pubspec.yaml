@@ -1,0 +1,16 @@
+name: bestvid_site_kit
+version: 0.1.5
+description: Small URL helpers for BestVid links.
+homepage: https://bestvid.net
+repository: https://github.com/bbwdadfg/bestvid-site-kit
+issue_tracker: https://github.com/bbwdadfg/bestvid-site-kit/issues
+topics:
+  - bestvid
+  - ai-video
+  - url
+
+environment:
+  sdk: ^3.0.0
+
+dev_dependencies:
+  test: ^1.26.0

@@ -1,0 +1,11 @@
+.git
+.dart_tool
+.elixir_ls
+.nuget-build
+_build
+dist
+target
+__pycache__
+*.gem
+*.jar
+*.nupkg
