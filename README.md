@@ -34,6 +34,12 @@ npm:
 npm install bestvid-site-kit
 ```
 
+Python:
+
+```sh
+pip install bestvid-site-kit
+```
+
 ## Usage
 
 Go:
@@ -76,4 +82,13 @@ const bestvid = require("bestvid-site-kit");
 
 console.log(bestvid.url("/tools/ai-video"));
 console.log(bestvid.searchUrl("ai video generator"));
+```
+
+Python:
+
+```python
+import bestvid_site_kit as bestvid
+
+print(bestvid.url("/tools/ai-video"))
+print(bestvid.search_url("ai video generator"))
 ```

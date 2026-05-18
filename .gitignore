@@ -3,3 +3,5 @@ Cargo.lock
 *.gem
 *.nupkg
 /.nuget-build/
+/dist/
+__pycache__/
