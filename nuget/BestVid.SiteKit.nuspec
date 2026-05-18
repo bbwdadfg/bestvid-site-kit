@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>BestVid.SiteKit</id>
+    <version>0.1.3</version>
+    <authors>BestVid</authors>
+    <owners>BestVid</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://bestvid.net</projectUrl>
+    <repository type="git" url="https://github.com/bbwdadfg/bestvid-site-kit" />
+    <readme>README.md</readme>
+    <description>Small URL helpers for BestVid links.</description>
+    <summary>Small URL helpers for BestVid links.</summary>
+    <tags>bestvid url video ai</tags>
+    <contentFiles>
+      <files include="cs/any/BestVidSiteKit.cs" buildAction="Compile" />
+    </contentFiles>
+  </metadata>
+</package>

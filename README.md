@@ -28,6 +28,12 @@ Ruby:
 gem install bestvid-site-kit
 ```
 
+npm:
+
+```sh
+npm install bestvid-site-kit
+```
+
 ## Usage
 
 Go:
@@ -61,4 +67,13 @@ require "bestvid/site_kit"
 
 puts BestVid::SiteKit.url("/tools/ai-video")
 puts BestVid::SiteKit.search_url("ai video generator")
+```
+
+Node:
+
+```js
+const bestvid = require("bestvid-site-kit");
+
+console.log(bestvid.url("/tools/ai-video"));
+console.log(bestvid.searchUrl("ai video generator"));
 ```
