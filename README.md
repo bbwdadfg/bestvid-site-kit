@@ -56,9 +56,9 @@ Java / Maven:
 
 ```xml
 <dependency>
-  <groupId>net.clojars.tianwei111245</groupId>
+  <groupId>net.clojars.tianwei</groupId>
   <artifactId>bestvid-site-kit</artifactId>
-  <version>0.1.5</version>
+  <version>0.1.6</version>
 </dependency>
 ```
 
