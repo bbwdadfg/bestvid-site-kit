@@ -1,0 +1,15 @@
+[package]
+name = "bestvid-site-kit"
+version = "0.1.2"
+edition = "2021"
+description = "Small URL helpers for BestVid links."
+license = "MIT"
+homepage = "https://bestvid.net"
+repository = "https://github.com/bbwdadfg/bestvid-site-kit"
+readme = "README.md"
+keywords = ["bestvid", "url", "video"]
+categories = ["web-programming"]
+
+[lib]
+name = "bestvid_site_kit"
+path = "src/lib.rs"
